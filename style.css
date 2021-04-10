@@ -1,0 +1,195 @@
+
+body {
+ background-image: url('https://i.pinimg.com/originals/9a/d2/bf/9ad2bf6756d91258da349b38333e711c.jpg');
+  font-family: Arial;
+  background-repeat: repeat-y;
+  background-size: contain;
+text-align: center;
+	 display: table;
+	width: 562.5px;
+	height: 960.5px;
+	background-color: #000000;
+
+}
+
+.video iframe {
+border-radius: 60px;
+ position: relative;
+  margin-bottom: 30px;
+  margin-top: -30px;
+  display: block;
+    margin-left: auto;
+	margin-right: auto;
+text-align: justify;	
+  height: 270px;
+  width:  480px;
+}
+
+
+
+
+section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  background-color: white;
+  border: 5px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 30px;
+
+  width: 484px;
+height: 77px;	
+  	transition: transform .5s ease-in-out;
+	animation: flutuar 5s ease-in-out infinite;
+  
+}
+
+
+section h1{
+  position:absolute;
+  font-size: 34px;
+ margin-left: 90px;	
+  margin-top: -10px;
+  text-align: justify;
+}
+
+header {
+
+  height: 12.5px;
+
+}
+.vizinho {
+  
+  display: block;
+  width: 68px;
+  height: 68px;
+  border-radius: 100%;
+  margin-left: 0px;
+  margin-top: 17.5px;
+ transform: translateY(-20%); 
+border: 1px solid black;
+   
+}
+  .instab img {
+    position: absolute;
+display: block;
+
+   margin-left: 45px;
+    margin-top: -50.5px;
+	  height: 80px;
+	  width: 80px;
+}
+.instab h1 {
+  position: absolute;
+  display: block;
+  margin-top: -35.5px;
+    margin-left: 160px;
+font-size: 40px;
+ 
+  
+}
+.instab:hover {
+	font-weight:700;
+	color: #312e2e;
+  background-color: #ffffff;
+   border: 2px solid #312e2e;
+}
+.instab {
+background: #312E2E; 
+  border-radius: 100px; 
+  padding-top: 20px; 
+  cursor: pointer;
+  color: #fff; 
+  border: #ffffff; 
+  font-size: 16px;
+  height: 53.9px;
+  width: 50vh; 
+  margin-left: 0px;
+  display: block;
+    border: 2px solid white;
+	 height: 108px;
+width: 500px;	
+}
+.youtubeb {
+background: #312E2E; 
+  border-radius: 50px; 
+  padding-top: 20px; 
+  cursor: pointer;
+  color: #fff; 
+  border: #ffffff; 
+  font-size: 16px;
+  height: 53.9px;
+  width: 50vh; 
+  margin-left: 0px;
+  margin-top: 17.5px;
+  display: block;
+  border: 2px solid white;
+ height: 108px;
+width: 500px;	
+  
+}
+.youtubeb:hover {
+	font-weight:700;
+	color: #312e2e;
+  background-color: #ffffff;
+  border: 2px solid #312e2e;
+}
+
+  .youtubeb img {
+    position: absolute;
+display: block;
+  padding: 0px;
+  height: 32.34px;
+    width: 46.97px;
+    margin-top: -45px;
+    margin-left: 40px;
+width: 96px;
+	  height: 64px;
+}
+.youtubeb h1 {
+  position: absolute;
+  display: block;
+  margin-top: -35px;
+    margin-left: 177.5px;
+font-size: 40px;
+
+  
+}
+.botoes {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 6px;
+  text-align: center;
+  width: 20vh;
+  text-align: justify;
+	 display: table;
+  width: 100%;
+	
+}
+@keyframes flutuar {
+	0%{
+		transform: translateY(-80px);
+		
+	}
+	50%{
+		transform: translateY(-90px);
+
+	}
+	100%{
+		transform: translateY(-80px);
+	
+  }
+}
+   
+  
+
+
+}
