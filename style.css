@@ -1,63 +1,52 @@
-body {
- background-image: url('https://i.pinimg.com/originals/9a/d2/bf/9ad2bf6756d91258da349b38333e711c.jpg');
-  font-family: Arial;
-  background-repeat: repeat-y;
-  background-size: contain;
-text-align: center;
-	 display: table;
-	width: 562.5px;
-	height: 960.5px;
-	background-color: #000000;
-margin-left: 5px;
+    width: 46.97px;
+    margin-top: -50px;
+    margin-left: 47.5px;
+width: 80px;
+	  height: 80px;
 }
-
-.video iframe {
-border-radius: 60px;
- position: relative;
-  margin-bottom: 30px;
-  margin-top: -30px;
+.tiktokb h1 {
+  position: absolute;
   display: block;
-    margin-left: auto;
-	margin-right: auto;
-text-align: justify;	
-  height: 270px;
-  width:  480px;
+  margin-top: -35px;
+    margin-left: 190px;
+font-size: 40px;
+
+  
 }
+.botoes {
 
-
-
-
-section {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 130px;
-  background-color: white;
-  border: 5px solid black;
+  max-width: 200px;
+  margin-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 30px;
-
-  width: 484px;
-height: 77px;	
-  	transition: transform .5s ease-in-out;
-	animation: flutuar 5s ease-in-out infinite;
-  
-}
-
-
-section h1{
-  position:absolute;
-  font-size: 34px;
- margin-left: 90px;	
-  margin-top: -10px;
+  border-radius: 6px;
+  text-align: center;
+  width: 20vh;
   text-align: justify;
+	 display: table;
+  width: 100%;
+	
 }
+@keyframes flutuar {
+	0%{
+		transform: translateY(-80px);
+		
+	}
+	50%{
+		transform: translateY(-90px);
 
-header {
+	}
+	100%{
+		transform: translateY(-80px);
+	
+  }
+}
+   
+  
 
-  height: 12.5px;
 
 }
-
 
