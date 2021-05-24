@@ -1,18 +1,21 @@
+
     body {
- background-image: url('https://i.pinimg.com/originals/9a/d2/bf/9ad2bf6756d91258da349b38333e711c.jpg');
+ background-image: url('https://steamuserimages-a.akamaihd.net/ugc/96102627876415855/B7C044FB1BEA7E9431E380FB807FFE36E43B66CE/');
   font-family: Arial;
   background-repeat: repeat-y;
   background-size: contain;
 text-align: center;
 	 display: table;
-	width: 562.5px;
-	height: 960.5px;
-	background-color: #000000;
+	width: 58.55vh;
+	height: 100vh;
+	background-color: black;
 margin-left: 5px;
+  position: relative;
+  justify-content: center;
 }
 
 .video iframe {
-border-radius: 60px;
+border-radius: 30px;
  position: relative;
   margin-bottom: 30px;
   margin-top: -30px;
@@ -20,55 +23,38 @@ border-radius: 60px;
     margin-left: auto;
 	margin-right: auto;
 text-align: justify;	
-  height: 270px;
-  width:  480px;
+  height: 370px;
+  width:  600px;
 }
 
 
-
-
-section {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 130px;
-  background-color: white;
-  border: 5px solid black;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius: 30px;
-
-  width: 484px;
-height: 77px;	
-  	transition: transform .5s ease-in-out;
-	animation: flutuar 5s ease-in-out infinite;
-  
-}
 
 
 section h1{
-  position:absolute;
-  font-size: 34px;
- margin-left: 90px;	
-  margin-top: -10px;
+  font-size: 40px;
+ margin-left: 100px;	
+  margin-top: -5px;
   text-align: justify;
+  color: white;
+  font-weight: 700;
 }
-
-header {
-
-  height: 12.5px;
-
+.borda {
+  background-color: #ffffff;
+  padding: 3vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: 30px;
+  padding-bottom: 7vh;
 }
 .vizinho {
   
-  display: block;
-  width: 68px;
-  height: 68px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   margin-left: 0px;
-  margin-top: 17.5px;
+  margin-top: 75px;
  transform: translateY(-20%); 
-border: 1px solid black;
+
    
 }
   .instab img {
@@ -76,24 +62,24 @@ border: 1px solid black;
 display: block;
 
    margin-left: 45px;
-    margin-top: -50.5px;
-	  height: 80px;
-	  width: 80px;
+    margin-top: -55.5px;
+	  height: 90px;
+	  width: 90px;
 }
 .instab h1 {
   position: absolute;
   display: block;
   margin-top: -35.5px;
-    margin-left: 160px;
-font-size: 40px;
+    margin-left: 180px;
+font-size: 45px;
  
   
 }
 .instab:hover {
 	font-weight:700;
-	color: #312e2e;
-  background-color: #ffffff;
-   border: 2px solid #312e2e;
+	color: #ffffff;
+  background-color: #1D49A5;
+ 
 }
 .instab {
 background: #312E2E; 
@@ -108,8 +94,8 @@ background: #312E2E;
   margin-left: 0px;
   display: block;
     border: 2px solid white;
-	 height: 108px;
-width: 500px;	
+	 height: 128px;
+width: 580px;	
 }
 .youtubeb {
 background: #312E2E; 
@@ -125,15 +111,14 @@ background: #312E2E;
   margin-top: 17.5px;
   display: block;
   border: 2px solid white;
- height: 108px;
-width: 500px;	
+ height: 128px;
+width: 580px;	
   
 }
 .youtubeb:hover {
 	font-weight:700;
-	color: #312e2e;
-  background-color: #ffffff;
-  border: 2px solid #312e2e;
+	color: #ffffff;
+  background-color: #1D49A5;
 }
 
   .youtubeb img {
@@ -143,16 +128,16 @@ display: block;
   height: 32.34px;
     width: 46.97px;
     margin-top: -45px;
-    margin-left: 40px;
-width: 96px;
-	  height: 64px;
+    margin-left: 37.5px;
+width: 105px;
+	  height: 70px;
 }
 .youtubeb h1 {
   position: absolute;
   display: block;
   margin-top: -35px;
-    margin-left: 177.5px;
-font-size: 40px;
+    margin-left: 197.5px;
+font-size: 45px;
 
   
 }
@@ -170,15 +155,14 @@ background: #312E2E;
   margin-top: 17.5px;
   display: block;
   border: 2px solid white;
- height: 108px;
-width: 500px;	
+ height: 128px;
+width: 580px;	
   
 }
 .tiktokb:hover {
 	font-weight:700;
-	color: #312e2e;
-  background-color: #ffffff;
-  border: 2px solid #312e2e;
+	color: #ffffff;
+  background-color: #1D49A5;
 }
 
   .tiktokb img {
@@ -187,17 +171,17 @@ display: block;
   padding: 0px;
   height: 32.34px;
     width: 46.97px;
-    margin-top: -50px;
+    margin-top: -55px;
     margin-left: 47.5px;
-width: 80px;
-	  height: 80px;
+width: 90px;
+	  height: 90px;
 }
 .tiktokb h1 {
   position: absolute;
   display: block;
   margin-top: -35px;
-    margin-left: 190px;
-font-size: 40px;
+    margin-left: 220px;
+font-size: 45px;
 
   
 }
@@ -236,4 +220,4 @@ font-size: 40px;
   
 
 
-}
+
