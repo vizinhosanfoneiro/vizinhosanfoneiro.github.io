@@ -1,30 +1,28 @@
-
-    body {
+* {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+body {
  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/96102627876415855/B7C044FB1BEA7E9431E380FB807FFE36E43B66CE/');
   font-family: Arial;
   background-repeat: repeat-y;
   background-size: contain;
 text-align: center;
-	 display: table;
-	width: 58.55vh;
-	height: 100vh;
+	 display: flex;
 	background-color: black;
-margin-left: 5px;
-  position: relative;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+      padding: 0;
+    margin: 0 auto;
 }
 
 .video iframe {
 border-radius: 30px;
- position: relative;
-  margin-bottom: 30px;
-  margin-top: -30px;
   display: block;
-    margin-left: auto;
-	margin-right: auto;
 text-align: justify;	
-  height: 370px;
-  width:  600px;
+ 
 }
 
 
@@ -36,175 +34,64 @@ section {
 }
 
 section h1{
-  font-size: 47.5px;
- margin-left: 55px;	
-  margin-top: -10px;
-  text-align: justify;
+  text-align: center;
   color: white;
-  font-weight: 700;
 }
 .borda {
+  display: flex;
   background-color: #ffffff;
-  padding: 3vh;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  margin-top: -60px;
-  padding-bottom: 7vh;
+  align-items: center;
+  text-align:center;
+  
 }
 .vizinho {
   
-  width: 200px;
-  height: 200px;
   border-radius: 100%;
-  margin-left: 0px;
-  margin-top: 175px;
  transform: translateY(-20%); 
 
    
 }
-  .instab img {
+button  img {
     position: absolute;
 display: block;
 
-   margin-left: 45px;
-    margin-top: -55.5px;
-	  height: 90px;
-	  width: 90px;
 }
-.instab h1 {
+button h1 {
   position: absolute;
   display: block;
-  margin-top: -35.5px;
-    margin-left: 180px;
-font-size: 45px;
- 
+
   
 }
-.instab:hover {
-	font-weight:700;
-	color: #ffffff;
-  background-color: #1D49A5;
- 
-}
-.instab {
-background: #312E2E; 
-  border-radius: 100px; 
-  padding-top: 20px; 
-  cursor: pointer;
-  color: #fff; 
-  border: #ffffff; 
-  font-size: 16px;
-  height: 53.9px;
-  width: 50vh; 
-  margin-left: 0px;
-  display: block;
-    border: 2px solid white;
-	 height: 128px;
-width: 580px;	
-}
-.youtubeb {
+
+
+button {
 background: #312E2E; 
   border-radius: 50px; 
-  padding-top: 20px; 
   cursor: pointer;
   color: #fff; 
   border: #ffffff; 
-  font-size: 16px;
-  height: 53.9px;
-  width: 50vh; 
-  margin-left: 0px;
-  margin-top: 17.5px;
   display: block;
   border: 2px solid white;
- height: 128px;
-width: 580px;	
   
 }
-.youtubeb:hover {
-	font-weight:700;
+button:hover {
 	color: #ffffff;
   background-color: #1D49A5;
 }
 
-  .youtubeb img {
-    position: absolute;
-display: block;
-  padding: 0px;
-  height: 32.34px;
-    width: 46.97px;
-    margin-top: -45px;
-    margin-left: 37.5px;
-width: 105px;
-	  height: 70px;
-}
-.youtubeb h1 {
-  position: absolute;
-  display: block;
-  margin-top: -35px;
-    margin-left: 197.5px;
-font-size: 45px;
 
-  
-}
-.tiktokb {
-background: #312E2E; 
-  border-radius: 50px; 
-  padding-top: 20px; 
-  cursor: pointer;
-  color: #fff; 
-  border: #ffffff; 
-  font-size: 16px;
-  height: 53.9px;
-  width: 50vh; 
-  margin-left: 0px;
-  margin-top: 17.5px;
-  display: block;
-  border: 2px solid white;
- height: 128px;
-width: 580px;	
-  
-}
-.tiktokb:hover {
-	font-weight:700;
-	color: #ffffff;
-  background-color: #1D49A5;
-}
-
-  .tiktokb img {
-    position: absolute;
-display: block;
-  padding: 0px;
-  height: 32.34px;
-    width: 46.97px;
-    margin-top: -55px;
-    margin-left: 47.5px;
-width: 90px;
-	  height: 90px;
-}
-.tiktokb h1 {
-  position: absolute;
-  display: block;
-  margin-top: -35px;
-    margin-left: 220px;
-font-size: 45px;
-
-  
-}
 .botoes {
-
+  align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 200px;
-  margin-top: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
   border-radius: 6px;
   text-align: center;
-  width: 20vh;
   text-align: justify;
 	 display: table;
-  width: 100%;
+
 	
 }
 @keyframes flutuar {
@@ -222,7 +109,313 @@ font-size: 45px;
   }
 }
    
+@media only screen and (min-width: 1350px) {
+
+.video iframe {
+  height: 370px;
+  width:  600px;
+}
+
+section h1{
+  font-size: 47.5px;
+  font-weight: 700;
+  margin-top: -20px;
+}
+.borda {
+  padding: 3vh;
+  margin-top: -80px;
+  padding-bottom: 30px;
+    flex-direction: row;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.vizinho {
   
+  width: 200px;
+  height: 200px;
+  margin-left: 0px;
+  margin-top: 175px;
+ transform: translateY(-20%); 
+
+   
+}
+  .instab img {
+   margin-left: 45px;
+    margin-top: -55.5px;
+	  height: 90px;
+	  width: 90px;
+}
+.instab h1 {
+  margin-top: -35.5px;
+    margin-left: 180px;
+font-size: 45px;
+ 
+  
+}
+
+.botoes button {
+  padding-top: 20px; 
+  font-size: 16px;
+  margin-left: 0px;
+    border: 2px solid white;
+	 height: 128px;
+width: 580px;	
+  font-size: 45px;
+}
+
+
+  .youtubeb img {
+  padding: 0px;
+  height: 32.34px;
+    width: 46.97px;
+    margin-top: -45px;
+    margin-left: 37.5px;
+width: 105px;
+	  height: 70px;
+}
+.youtubeb h1 {
+  margin-top: -35px;
+    margin-left: 197.5px;
+font-size: 45px;
+
+  
+}
 
 
 
+  .tiktokb img {
+  padding: 0px;
+  height: 32.34px;
+    width: 46.97px;
+    margin-top: -55px;
+    margin-left: 47.5px;
+width: 90px;
+	  height: 90px;
+}
+.tiktokb h1 {
+  margin-top: -35px;
+    margin-left: 220px;
+font-size: 45px;
+
+  
+}
+.botoes {
+  margin-left: 30px;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+	
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 750px) and (max-width: 1349px) {
+.video iframe {
+  margin-bottom: 30px;
+  margin-top: -30px;
+  height: 370px;
+  width:  600px;
+}
+
+section h1{
+  font-size: 47.5px;
+  font-weight: 700;
+  margin-top: -20px;
+}
+.borda {
+  padding: 3vh;
+  margin-top: -60px;
+  padding-bottom: 7vh;
+   flex-direction: column;
+}
+.vizinho {
+  
+  width: 200px;
+  height: 200px;
+  margin-left: 0px;
+  margin-top: 175px;
+ transform: translateY(-20%); 
+
+   
+}
+  .instab img {
+   margin-left: 45px;
+    margin-top: -55.5px;
+	  height: 90px;
+	  width: 90px;
+}
+.instab h1 {
+  margin-top: -50px;
+    margin-left: 180px;
+ 
+  
+}
+
+.botoes button {
+  padding-top: 20px; 
+  font-size: 16px;
+  margin-left: 0px;
+    border: 2px solid white;
+	 height: 128px;
+width: 580px;
+   font-size: 30px;
+}
+
+
+  .youtubeb img {
+  padding: 0px;
+    margin-top: -45px;
+    margin-left: 37.5px;
+width: 105px;
+	  height: 70px;
+}
+.youtubeb h1 {
+  margin-top: -50px;
+    margin-left: 197.5px;
+
+
+  
+}
+
+
+  .tiktokb img {
+    margin-top: -55px;
+    margin-left: 47.5px;
+width: 90px;
+	  height: 90px;
+}
+.tiktokb h1 {
+  margin-top: -50px;
+    margin-left: 220px;
+
+
+  
+}
+.botoes {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 20vh;
+  width: 100%;
+	
+}
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+@media only screen and (max-width: 749px) {
+  body {
+
+  } 
+
+
+section h1{
+  margin-top: -1vh;
+  font-weight: 700;
+      font-size: 8vw;
+    margin-bottom: -10vw;
+}
+
+.vizinho {
+  
+  width: 30vw;
+  height: 30vw;
+  margin-top: 40vw;
+ transform: translateY(-20%); 
+   
+}
+    .borda {
+  padding: 2vh;
+  margin-top: 0%;
+  padding-bottom: 7vh;
+   flex-direction: column;
+}
+.video iframe {
+  margin-bottom: 30px;
+  margin-top: -30px;
+  height: 53.43vw;
+  width:  90vw;
+}
+  
+  .instab img {
+   margin-left: -18.8%;
+    margin-top: -8.7%;
+	  height: 80%;
+	  width: 80%;
+}
+.instab h1 {
+  margin-top: -7%;
+    margin-left: 35%;
+ 
+  
+}
+  .botoes button {
+    position: relative;
+      padding-top: 20px; 
+  font-size: 16px;
+    border: 2px solid white;
+	 height: 19.86vw;
+width: 90vw;	
+        padding: 0;
+    margin: 0 auto;
+    font-size: 5vw;
+  }
+
+  .youtubeb img {
+  height: 70%;
+    width: 23%;
+    margin-top: -7.7%;
+    margin-left: 13.7%;
+
+}
+.youtubeb h1 {
+   margin-top: -7%;
+    margin-left: 42.7%;
+
+  
+}
+
+
+
+  .tiktokb img {
+        margin-top: -8.7%;
+    margin-left: 21%;
+width: 17%;
+	  height: 80%;
+}
+.tiktokb h1 {
+   margin-top: -7%;
+    margin-left: 43%;
+  
+}
+.botoes {
+  margin-top: -3%;
+	align-items: center;
+}
+ }  
